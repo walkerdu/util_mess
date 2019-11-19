@@ -22,7 +22,6 @@ if [ $# != 1 ];then
     exit -1
 fi
 
-
 stat_note_file='/tmp/proc_stat.txt'
 
 cat>$stat_note_file<<EOF
