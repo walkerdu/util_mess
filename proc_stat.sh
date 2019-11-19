@@ -25,6 +25,7 @@ fi
 
 
 stat_note_file='/tmp/proc_stat.txt'
+
 cat>$stat_note_file<<EOF
   pid           process id
   tcomm         filename of the executable
