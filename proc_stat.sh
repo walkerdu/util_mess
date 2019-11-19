@@ -93,3 +93,4 @@ do
     printf "%-20s %s\n" $field "${note_array[$loop_i]}"
     loop_i=$((loop_i + 1))
 done
+
