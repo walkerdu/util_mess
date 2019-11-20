@@ -24,6 +24,7 @@ fi
 stat_note_file='/tmp/proc_stat.txt'
 2
 cat>$stat_note_file<<EOF
+333
   pid           process id
   tcomm         filename of the executable
   state         state (R is running, S is sleeping, D is sleeping in an uninterruptible wait, Z is zombie, T is traced or stopped)
