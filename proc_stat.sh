@@ -22,7 +22,7 @@ if [ $# != 1 ];then
 fi
 
 stat_note_file='/tmp/proc_stat.txt'
-
+2
 cat>$stat_note_file<<EOF
   pid           process id
   tcomm         filename of the executable
